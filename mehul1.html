@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mehul1.css">
+    
+    <title>Document</title>
+</head>
+<body>
+<div class="body1"></div>
+  <h1 class="title1">COVID HELP</h1>
+
+<div class="container">
+  <div class="buttons">
+    <button class="but" id="seekhelp" onclick="myFunctionlogin()">Volentier</button>
+    <button class="but" onclick="myFunctionhelp()">HELP</button> 
+  </div>
+</div>
+
+  <div class="form" id="help">
+    <center>
+    <form >
+        <p class="titleform">ADD DETAILS</p>
+        <!-- <label id="name" for="name">Provider Name:</label>--><input id="Iname"type="text" name="name" placeholder="Enter name" class="unform" >
+        <!-- <label for="number1" id="contact"> Contact No1:</label>--> <input type="number" name="contact1" placeholder="Enter contact" id="contact" class="unform">
+        <!-- <label for="number2" id="contact2"> Contact No2:</label>--> <input type="number" name="contact2" placeholder="Enter contact" id="contact" class="unform">
+        <!-- <label for="gmail" id="gamil">Gmail:</label>--> <input type="Gmail" name="gmail" placeholder="Enter Gmail" id="gmail" class="unform">
+        <!-- <label for="state"id="state">State:</label>--><input type="text" name="state" placeholder="Enter state" id="state" class="unform">
+        <!-- <label for="City" id="city">CITY:</label>--><input type="text" name="City" placeholder="Enter City" id="City"  class="unform">
+        <!-- <label for="Adress" id="adress">ADRESS:</label>--><input type="text" name="Adress" placeholder="Enter Adress" id="Adress" class="unform"><br>
+    <lable id="required">Available items : </lable> <br>
+    <input type="checkbox" id="bed" name="bed" ><label for="male">Bed</label>
+    <input type="checkbox" id="ventilator"name="ventilator" ><label for="female">Ventilator</label>
+    <input type="checkbox" id="remdesivir" name="remdesivir" ><label for="transgender">Remdesivir</labe>
+    <input type="checkbox" id="oxyegencylinder" name="oxyegencylinder" ><label for="oxyegencylinder">Oxyegencylinder</label>
+    <label for="masssege" id="masssege" ><textarea rows="3" cols="40" type="text" name="masssege" placeholder="Enter masssege" id="masssege"class="unform"></textarea><br>
+    <button onclick="" class="submitform">Submit</button><br>
+    </form>
+  </center>
+</div>
+
+<center>
+<div class="login" id="login">
+  <p class="sign" align="center">Sign in</p>
+  <form class="form1">
+    <input class="unform " type="text" align="center" placeholder="Username"><br>
+    <input class="unform" type="password" align="center" placeholder="Password"><br>
+   <a class="submitform" align="center">Sign in</a><br>
+   <button align="center" onclick="myFunctionsignup()" class="newvolentier" >New Volentier</button>
+   <p class="detail"></p>
+</div>
+</center>
+
+<div class="signup" id="signup">
+  <center>
+  <p class="titleform">Sign Up</p><br>
+ 
+ <form>
+    <input class="unform " type="text" align="center" placeholder="Name">
+    <input type="number" name="contact1" placeholder="Enter contact" id="contact" class="unform">
+    <input class="unform" type="text" align="center" placeholder="username">
+    <input class="unform" type="password" align="center" placeholder="Password">
+    <input type="Gmail" name="gmail" placeholder="Enter Gmail" id="gmail" class="unform">
+    <label for="masssege" id="masssege" ><textarea rows="3" cols="40" type="text" name="masssege" placeholder="Enter masssege" id="masssege"class="unform"></textarea><br>
+    <label class="titleform">Upload Aadhar/Pan Card</label><br> <input class="file" type="file" accept="image, Document/*" name="Adhar Card"/><br>
+    <button onclick="" class="submitform">Submit</button>
+  </form>
+</center>
+</div>
+
+
+<script src="mehul1.js"></script>
+</body>
+</html>
